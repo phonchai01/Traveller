@@ -235,7 +235,7 @@
     </div>
 
     <script>
-        let currentIndex = 1;
+        let currentIndex = 2;
         const cards = document.querySelectorAll('.carousel .card');
         const captions = [
             'หาดจอมเทียน จ.ชลบุรี',
@@ -277,7 +277,8 @@
             updateCarousel();
         }
         // Initialize with the first background image
-        document.getElementById('blur-background').style.backgroundImage = backgrounds[0];
+        document.getElementById('blur-background').style.backgroundImage = backgrounds[currentIndex];
+        updateCarousel(); // เรียกใช้เพื่อให้การตั้งค่าเริ่มต้น
     </script>
 </body>
 
