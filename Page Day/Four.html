@@ -1,218 +1,125 @@
 <!DOCTYPE html>
-<html lang="th">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>เว็บไซต์ท่องเที่ยว</title>
-  <link rel="stylesheet" href="/Page Package/Package.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Pacifico&display=swap" rel="stylesheet">
-</head>
-<body>
-  <style>
-    body {
-      background: url(/Photo/bg\ อ่าวคุ้งกระเบน.png) no-repeat center center fixed;
-      background-size: cover;
-      font-family: 'K2D', sans-serif;
-      color: #fff;
-      margin: 0;
-      padding: 0;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Day.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="pr econnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Pacifico&display=swap" rel="stylesheet">
+    <title>One Day</title>
 
-    header {
-      background-color: rgba(0, 0, 0, 0.7);
-      padding: 15px;
-    }
-
-    .navbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-family: 'Pacifico', sans-serif;
-    }
-
-    .navbar a {
-      color: white;
-      text-decoration: none;
-      padding: 10px 20px;
-      font-size: 18px;
-      transition: background-color 0.3s ease;
-    }
-
-    .navbar a:hover,
-    .navbar a.active {
-      background-color: rgba(255, 255, 255, 0.3);
-      border-radius: 5px;
-    }
-
-    .logo img {
-      height: 50px;
-    }
-
-    main {
-      display: flex;
-      justify-content: center;
-      margin-top: 30px;
-      padding: 0 20px;
-    }
-
-    .grid-container {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-      max-width: 1200px;
-      width: 100%;
-    }
-
-    .image-container img {
-      width: 100%;
-      height: auto;
-      border-radius: 10px;
-    }
-
-    .right-container {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .container-info-box,
-    .container-activity-box {
-      background-color: rgba(0, 0, 0, 0.7);
-      margin-bottom: 20px;
-      padding: 20px;
-      border-radius: 10px;
-    }
-
-    .container-info-box h3,
-    .container-activity-box h3 {
-      font-size: 30px;
-      font-family: 'Pacifico', sans-serif;
-      margin-bottom: 15px;
-    }
-
-    ul {
-      list-style: none;
-      padding-left: 20px;
-    }
-
-    ul li {
-      font-size: 20px;
-      line-height: 1.6;
-    }
-
-    @media screen and (max-width: 768px) {
-      .grid-container {
-        grid-template-columns: 1fr;
-      }
-      .navbar a {
-        font-size: 16px;
-        padding: 8px 15px;
-      }
-    }
-  </style>
-
-  <header>
-    <nav>
-      <div class="navbar">
-        <a href="#">HOME</a>
-        <a href="/Page Day/One.html">One Day</a>
-        <a href="/Page Day/Two.html">Two Day</a>
-        <a href="/Page Day/Three.html">Three Day</a>
-        <a href="/Page Day/Four.html">Four Day</a>
-        <a href="/Page Day/Five.html">Five Day</a>
-        <div class="logo">
-          <img src="/Photo/logo.png" alt="Logo">
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <main>
-    <div class="grid-container">
-      <!-- รูปภาพทางซ้าย -->
-      <div class="image-container">
-        <img src="/Photo/จ.ชลบุรี พัทยา - หาดจอมเทียน.jpeg" alt="หาดจอมเทียน">
-      </div>
-
-      <!-- กล่อง Container ทางขวา -->
-      <div class="right-container">
-        <!-- แพ็คเกจที่ 3 -->
-        <div class="container-info-box">
-          <h3>แพ็คเกจที่ 5 : การผจญภัยและการเรียนรู้ในตะวันออก</h3>
-          <!-- สถานที่ -->
-          <ul>
-            <li><strong>สถานที่:</strong> จังหวัดสระแก้ว,จังหวัดจันทบุรี,จังหวัดชลยุรี,จังหวัดฉะเชิงเทรา</li>
-            <li><strong>หมายเหตุ:</strong> แพ็คเกจเหล่านี้เป็นเพียงตัวอย่าง สามารถปรับเปลี่ยนสถานที่ท่องเที่ยว เวลา และกิจกรรมต่างๆ ได้ตามความต้องการ ควรตรวจสอบข้อมูลการเดินทางและการเปิดให้บริการสถานที่ท่องเที่ยวต่างๆ ก่อนการเดินทาง ราคาที่พักและค่าใช้จ่ายอื่นๆ ขึ้นอยู่กับฤดูกาลและชนิดของที่พักที่เลือก</li>
-          </ul>
-        </div>
-
-        <!-- กิจกรรม วันแรก -->
-        <div class="container-activity-box">
-          <h3>กิจกรรม วันแรก:</h3>
-          <ul>
-            <li> 07:00 น.: ออกเดินทางจากจุดเริ่มต้นไปจังหวัดสระแก้ว  </li>
-            <li>10:00 น.: เที่ยวชม อุทยานแห่งชาติตาพระยา กิจกรรม: เดินป่าศึกษาธรรมชาติ</li>
-            <li>12:30 น.: รับประทานอาหารกลางวัน</li>
-            <li> 14:00 น.: เยี่ยมชม ตลาดโรงเกลือ ช้อปปิ้งสินค้านำเข้าราคาประหยัด</li>
-            <li> 16:00 น.: เช็คอินที่พักในตัวเมืองสระแก้ว</li>
-            <li>18:00 น.: รับประทานอาหารเย็น</li>
-            
-            
-          </ul>
-        </div>
-
-        <!-- กิจกรรม วันที่สอง -->
-        <div class="container-activity-box">
-          <h3>กิจกรรม วันที่สอง:</h3>
-          <ul>
-            <li> 07:30 น.: เดินทางจากสระแก้วไปจันทบุรี</li>
-            <li>10:00 น.: เยี่ยมชม โบสถ์วัดแม่พระปฏิสนธินิรมล โบสถ์คริสต์ที่ใหญ่ที่สุดในประเทศไทย </li>
-            <li>12:00 น.: รับประทานอาหารกลางวัน ณ ร้านอาหารท้องถิ่น</li>
-            <li>13:30 น.: เที่ยวชม ชุมชนริมน้ำจันทบูร เดินเล่น ถ่ายรูป ชมบ้านเก่า</li>
-            <li>16:00 น.: เช็คอินที่พักในจันทบุรี</li>
-            <li>18:00 น.: รับประทานอาหารเย็น</li>
-            
-          </ul>
-        </div>
-
-        <!-- กิจกรรม วันที่สาม -->
-        <div class="container-activity-box">
-          <h3>กิจกรรม วันที่สาม:</h3>
-          <ul>
-            <li>07:30 น.: เดินทางไปจังหวัดชลบุรี</li>
-            <li> 10:00 น.: เยี่ยมชม สวนนงนุช สวนสวยที่มีชื่อเสียงระดับโลก  </li>
-            <li>12:30 น.: รับประทานอาหารกลางวัน</li>
-            <li> 14:00 น.: แวะชม เขาชีจรรย์ พระพุทธรูปแกะสลักบนหน้าผา</li>
-            <li> 16:00 น.: เช็คอินที่พักในชลบุรี</li>
-            <li>18:30 น.: รับประทานอาหารเย็น</li>
-            
-        
-          </ul>
-        </div>
-
-        <!-- กิจกรรม วันที่สี่ -->
-        <div class="container-activity-box">
-          <h3>กิจกรรม วันที่สี่:</h3>
-          <ul>
-            <li>07:30 น.: รับประทานอาหารเช้า</li>
-            <li>09:00 น.: แวะซื้อของฝากในระยอง</li>
-            <li>10:30 น.: เดินทางกลับ</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <script>
-    const currentPage = window.location.pathname;
-    const navLinks = document.querySelectorAll('.navbar a');
-
-    navLinks.forEach(link => {
-        if (link.href.includes(currentPage)) {
-            link.classList.add('active');
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: url('/Photo/จ.ฉะเชิงเทรา\ วัดโสธรวรารามวรวิหาร.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            position: relative;
         }
-    });
-  </script>
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(14, 14, 14, 0.6);
+            z-index: -1;
+        }
+    </style>
+</head>  
+    <body>
+    <div class="container">
+
+        <div class="navbar">
+            <a href="/HomePage/index.html"class="pacifico-regular" >HOME</a>
+            <a href="One.html"class="pacifico-regular" >One Day</a>
+            <a href="Two.html"class="pacifico-regular">Two Day</a>
+            <a href="Three.html"class="pacifico-regular">Three Day</a>
+            <a href="Four.html"class="pacifico-regular">Four Day</a>
+            <a href="Five.html"class="pacifico-regular">Five Day</a>
+            <div class="logo">
+                <img src="/Photo/logo.png" alt="Logo">
+            </div>
+        </div>
+        
+
+        <div class="carousel">
+            <div class="title-row">
+                <p class="pacifico-regular">Four Day</p>
+            </div>
+            <div class="carousel-container">
+                
+                <div class="carousel-item">
+                    <a href="One.html">
+                        <img src="/Photo/จ.สระแก้ว ตลาดโรงเกลือ.jpeg" alt="Packet One">
+                    </a>
+                    <p class="pacifico-regular" style="padding: 20px 10px;">Packet One </p>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="Two.html">  
+                        <img src="/Photo/จ.ระยอง เกาะเสม็ด.jpeg" alt="Packet Two">
+                    </a>
+                    <p class="pacifico-regular" style="padding: 20px 10px;">Packet Two </p>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="Three.html">  
+                        <img src="/Photo/จ.จันทบุรี อ่าวคุ้งกระเบน.jpeg" alt="Packet Three">
+                    </a>
+                    <p class="pacifico-regular" style="padding: 20px 10px;">Packet Three </p>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="Four.html">  
+                        <img src="/Photo/จ.ฉะเชิงเทรา วัดโสธรวรารามวรวิหาร.jpeg" alt="Packet Four">
+                    </a>
+                    <p class="pacifico-regular" style="padding: 20px 10px;">Packet Four </p>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="Five.html">  
+                        <img src="/Photo/จ.ชลบุรี พัทยา - หาดจอมเทียน.jpeg" alt="Packet Five">
+                    </a>
+                    <p class="pacifico-regular" style="padding: 20px 10px;">Packet Five </p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-buttons">
+            <button class="carousel-button" id="prev">&#8249;</button>
+            <button class="carousel-button" id="next">&#8250;</button>
+        </div>
+        
+        
+
+    <script>
+        const carouselContainer = document.querySelector('.carousel-container');
+        const prevButton = document.getElementById('prev');
+        const nextButton = document.getElementById('next');
+
+        prevButton.addEventListener('click', () => {
+            carouselContainer.scrollBy({ left: -200, behavior: 'smooth' });
+        });
+
+        nextButton.addEventListener('click', () => {
+            carouselContainer.scrollBy({ left: 200, behavior: 'smooth' });
+        });
+
+
+        // ดึง URL ปัจจุบัน
+        const currentPage = window.location.pathname;
+
+    // ดึงลิงก์ทั้งหมดใน navbar
+        const navLinks = document.querySelectorAll('.navbar a');
+
+        navLinks.forEach(link => {
+            if (link.href.includes(currentPage)) {
+                link.classList.add('active'); // เพิ่มคลาส active
+            }
+        });
+    </script>
 </body>
 </html>
